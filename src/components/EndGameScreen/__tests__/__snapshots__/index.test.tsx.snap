@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EndGameScreen loose screen screenshot 1`] = `
+Array [
+  <h1
+    className="sc-bdfBwQ display-3"
+  >
+    You are loose
+  </h1>,
+  <button
+    className="sc-gsTCUz btn btn-primary"
+    onClick={[Function]}
+  >
+    To main menu
+  </button>,
+]
+`;
+
+exports[`EndGameScreen win screen screenshot 1`] = `
+Array [
+  <h1
+    className="sc-bdfBwQ display-3"
+  >
+    You are win
+  </h1>,
+  <button
+    className="sc-gsTCUz btn btn-primary"
+    onClick={[Function]}
+  >
+    To main menu
+  </button>,
+]
+`;

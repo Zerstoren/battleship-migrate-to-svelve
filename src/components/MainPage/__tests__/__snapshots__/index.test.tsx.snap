@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render main page 1`] = `
+"<Main handleChangeGameStatus={[Function: handleChangeGameStatus]}>
+  <styled.h1>
+    <h1 className=\\"sc-bdfBwQ display-3\\">
+      Battleship
+    </h1>
+  </styled.h1>
+  <div>
+    <styled.button onClick={[Function: onClick]}>
+      <button onClick={[Function: onClick]} type=\\"button\\" className=\\"sc-gsTCUz fGVasU btn btn-secondary\\">
+        Search opponent
+      </button>
+    </styled.button>
+    <Styled(styled.button) onClick={[Function: onClick]}>
+      <button onClick={[Function: onClick]} type=\\"button\\" className=\\"sc-gsTCUz sc-dlfnbm fGVasU btn btn-secondary\\">
+        Create lobby
+      </button>
+    </Styled(styled.button)>
+  </div>
+</Main>"
+`;

@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateLobby Check validation field size 1`] = `
+"<CreateLobby handleChangeGameStatus={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <ReactFinalForm initialValues={{...}} onSubmit={[Function: handleSubmit]} validate={[Function: onValidate]} render={[Function: render]}>
+    <styled.h1>
+      <h1 className=\\"sc-bdfBwQ display-3\\">
+        New Lobby
+      </h1>
+    </styled.h1>
+    <styled.div>
+      <div className=\\"sc-gsTCUz hIfhYJ\\">
+        <ForwardRef(Field) name=\\"lobbyName\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input name=\\"lobbyName\\" value=\\"Whooo\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className={[undefined]} type=\\"text\\" autoFocus={true}>
+                <input name=\\"lobbyName\\" value=\\"Whooo\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className=\\"sc-hKgILt form-control undefined\\" type=\\"text\\" autoFocus={true} />
+              </styled.input>
+              <label>
+                Lobby Name
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"x\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className=\\"is-invalid\\" name=\\"x\\" value=\\"1\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt is-invalid form-control is-invalid\\" name=\\"x\\" value=\\"1\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field is too short
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"y\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className=\\"is-invalid\\" name=\\"y\\" value=\\"1\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt is-invalid form-control is-invalid\\" name=\\"y\\" value=\\"1\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field is too short
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships4n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships3n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships2n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships1n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-evenly\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-evenly\\">
+        <button className=\\"btn btn-secondary\\" onClick={[Function: backToMainPage]}>
+          Back
+        </button>
+        <button className=\\"btn btn-primary\\" onClick={[Function: handleSubmit]}>
+          Create lobby
+        </button>
+      </div>
+    </styled.div>
+  </ReactFinalForm>
+</CreateLobby>"
+`;
+
+exports[`CreateLobby Check validation name 1`] = `
+"<CreateLobby handleChangeGameStatus={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <ReactFinalForm initialValues={{...}} onSubmit={[Function: handleSubmit]} validate={[Function: onValidate]} render={[Function: render]}>
+    <styled.h1>
+      <h1 className=\\"sc-bdfBwQ display-3\\">
+        New Lobby
+      </h1>
+    </styled.h1>
+    <styled.div>
+      <div className=\\"sc-gsTCUz hIfhYJ\\">
+        <ForwardRef(Field) name=\\"lobbyName\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input name=\\"lobbyName\\" value=\\"\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className=\\"is-invalid\\" type=\\"text\\" autoFocus={true}>
+                <input name=\\"lobbyName\\" value=\\"\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"text\\" autoFocus={true} />
+              </styled.input>
+              <label>
+                Lobby name is required
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"x\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: X
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"y\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: Y
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships4n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                4x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships3n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                3x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships2n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                2x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships1n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                1x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-evenly\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-evenly\\">
+        <button className=\\"btn btn-secondary\\" onClick={[Function: backToMainPage]}>
+          Back
+        </button>
+        <button className=\\"btn btn-primary\\" onClick={[Function: handleSubmit]}>
+          Create lobby
+        </button>
+      </div>
+    </styled.div>
+  </ReactFinalForm>
+</CreateLobby>"
+`;
+
+exports[`CreateLobby Check validation ships size 1`] = `
+"<CreateLobby handleChangeGameStatus={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <ReactFinalForm initialValues={{...}} onSubmit={[Function: handleSubmit]} validate={[Function: onValidate]} render={[Function: render]}>
+    <styled.h1>
+      <h1 className=\\"sc-bdfBwQ display-3\\">
+        New Lobby
+      </h1>
+    </styled.h1>
+    <styled.div>
+      <div className=\\"sc-gsTCUz hIfhYJ\\">
+        <ForwardRef(Field) name=\\"lobbyName\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input name=\\"lobbyName\\" value=\\"Whooo\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className={[undefined]} type=\\"text\\" autoFocus={true}>
+                <input name=\\"lobbyName\\" value=\\"Whooo\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className=\\"sc-hKgILt form-control undefined\\" type=\\"text\\" autoFocus={true} />
+              </styled.input>
+              <label>
+                Lobby Name
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"x\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: X
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"y\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: Y
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships4n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships4n\\" value=\\"22\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships4n\\" value=\\"22\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships3n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships2n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships1n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className=\\"is-invalid\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt is-invalid form-control is-invalid\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Need less ships
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-evenly\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-evenly\\">
+        <button className=\\"btn btn-secondary\\" onClick={[Function: backToMainPage]}>
+          Back
+        </button>
+        <button className=\\"btn btn-primary\\" onClick={[Function: handleSubmit]}>
+          Create lobby
+        </button>
+      </div>
+    </styled.div>
+  </ReactFinalForm>
+</CreateLobby>"
+`;
+
+exports[`CreateLobby Type all data 1`] = `
+"<CreateLobby handleChangeGameStatus={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <ReactFinalForm initialValues={{...}} onSubmit={[Function: handleSubmit]} validate={[Function: onValidate]} render={[Function: render]}>
+    <styled.h1>
+      <h1 className=\\"sc-bdfBwQ display-3\\">
+        New Lobby
+      </h1>
+    </styled.h1>
+    <styled.div>
+      <div className=\\"sc-gsTCUz hIfhYJ\\">
+        <ForwardRef(Field) name=\\"lobbyName\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input name=\\"lobbyName\\" value=\\"\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className={false} type=\\"text\\" autoFocus={true}>
+                <input name=\\"lobbyName\\" value=\\"\\" checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} className=\\"sc-hKgILt form-control false\\" type=\\"text\\" autoFocus={true} />
+              </styled.input>
+              <label>
+                Lobby Name
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"x\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"x\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: X
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"y\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input type=\\"number\\" className={[undefined]} name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input type=\\"number\\" className=\\"sc-hKgILt form-control undefined\\" name=\\"y\\" value={10} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                Field size: Y
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships4n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships4n\\" value={1} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                4x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships3n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships3n\\" value={2} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                3x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-between\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-between\\">
+        <ForwardRef(Field) name=\\"ships2n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships2n\\" value={3} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                2x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+        <ForwardRef(Field) name=\\"ships1n\\">
+          <styled.div>
+            <div className=\\"sc-dlfnbm form-floating\\">
+              <styled.input className={[undefined]} type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]}>
+                <input className=\\"sc-hKgILt form-control undefined\\" type=\\"number\\" name=\\"ships1n\\" value={4} checked={[undefined]} onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} />
+              </styled.input>
+              <label>
+                1x ships count
+              </label>
+            </div>
+          </styled.div>
+        </ForwardRef(Field)>
+      </div>
+    </styled.div>
+    <styled.div className=\\"d-flex justify-content-evenly\\">
+      <div className=\\"sc-gsTCUz hIfhYJ d-flex justify-content-evenly\\">
+        <button className=\\"btn btn-secondary\\" onClick={[Function: backToMainPage]}>
+          Back
+        </button>
+        <button className=\\"btn btn-primary\\" onClick={[Function: handleSubmit]}>
+          Create lobby
+        </button>
+      </div>
+    </styled.div>
+  </ReactFinalForm>
+</CreateLobby>"
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LobbyList Snapshot empty list 1`] = `
+"<MobXProvider lobbyList={{...}}>
+  <inject-with-lobbyList(Object) handleSetLobby={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+    <inject-with-lobbyList(Object) handleSetLobby={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} lobbyList={{...}}>
+      <styled.h1>
+        <h1 className=\\"sc-bdfBwQ display-3\\">
+          Lobby list
+        </h1>
+      </styled.h1>
+      <styled.table>
+        <table className=\\"sc-gsTCUz table table-striped table-hover\\">
+          <thead>
+            <tr>
+              <td />
+              <td>
+                Lobby name
+              </td>
+              <td>
+                Field size
+              </td>
+              <td>
+                Ships 4x/3x/2x/1x
+              </td>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </styled.table>
+    </inject-with-lobbyList(Object)>
+  </inject-with-lobbyList(Object)>
+</MobXProvider>"
+`;
+
+exports[`LobbyList Snapshot load on startup item 1`] = `
+"<MobXProvider lobbyList={{...}}>
+  <inject-with-lobbyList(Object) handleSetLobby={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+    <inject-with-lobbyList(Object) handleSetLobby={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} lobbyList={{...}}>
+      <styled.h1>
+        <h1 className=\\"sc-bdfBwQ display-3\\">
+          Lobby list
+        </h1>
+      </styled.h1>
+      <styled.table>
+        <table className=\\"sc-gsTCUz table table-striped table-hover\\">
+          <thead>
+            <tr>
+              <td />
+              <td>
+                Lobby name
+              </td>
+              <td>
+                Field size
+              </td>
+              <td>
+                Ships 4x/3x/2x/1x
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <button className=\\"btn btn-secondary\\" onClick={[Function: onClick]}>
+                  Join
+                </button>
+              </td>
+              <td>
+                S
+              </td>
+              <td>
+                10
+                x
+                10
+              </td>
+              <td>
+                1
+                /
+                1
+                /
+                1
+                /
+                1
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </styled.table>
+    </inject-with-lobbyList(Object)>
+  </inject-with-lobbyList(Object)>
+</MobXProvider>"
+`;
