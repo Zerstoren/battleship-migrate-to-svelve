@@ -1,0 +1,6 @@
+{
+  "jestrunner.jestCommand": "yarn test --forceExit",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}
