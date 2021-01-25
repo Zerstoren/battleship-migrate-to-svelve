@@ -1,18 +1,16 @@
-import lobbyList, { ILobbyList } from './lobbyList';
-import mainStore, { IMainStore } from './mainStore';
+import lobbyList, { LobbyList } from "./lobbyList";
+import mainStore, { MainStore } from "./mainStore";
 
-interface IStore {
-  mainStore: IMainStore,
-  lobbyList: ILobbyList
+export const STORE_CONTEXT = 'store_context';
+
+export interface IStore {
+  mainStore: MainStore,
+  lobbyList: LobbyList
 }
 
 const Stores: IStore = {
   mainStore,
   lobbyList,
-};
-
-export type {
-  IStore,
 };
 
 export default Stores;

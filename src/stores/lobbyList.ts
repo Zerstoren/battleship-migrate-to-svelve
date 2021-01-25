@@ -1,36 +1,41 @@
-import { applySnapshot, Instance, types } from 'mobx-state-tree';
-import LobbyStore, { IDataFromServer } from './lobby';
+import { writable, Writable } from 'svelte/store';
+import { ILobby, ILobbyData, LobbyStoreCreate } from './lobby';
 
-const LobbyElement = types.model('LobbyElement', {
-  name: types.identifier,
-  value: types.late(() => LobbyStore),
-});
+interface ILobbySet {
+  [key: string]: ILobby
+}
 
-const LobbyList = types.model('LobbyList', {
-  lobbys: types.map(LobbyElement),
-}).actions((self) => ({
-  updateFromServer(data: IDataFromServer) {
-    const lobbys: Record<string, unknown> = {};
+interface ILobbyInputData {
+  [key: string]: ILobbyData
+}
 
-    Object.keys(data).forEach((key: string) => {
-      lobbys[key] = {
-        name: key,
-        value: data[key],
-      };
+class LobbyList {
+  readonly store: Writable<ILobbySet>;
+
+  constructor(data: ILobbySet) {
+    this.store = writable<ILobbySet>(data);
+  }
+
+  updateFromServer(data: ILobbyInputData) {
+    const saveStoreData: ILobbySet = {};
+
+    Object.keys(data).forEach((userId) => {
+      saveStoreData[userId] = LobbyStoreCreate(data[userId]);
     });
 
-    const snapshotData: Record<string, unknown> = {
-      lobbys,
-    };
+    this.store.set(saveStoreData);
+  }
+}
 
-    applySnapshot(self, snapshotData);
-  },
-}));
-
-const lobbyList = LobbyList.create();
-
-export {
-  LobbyList,
+export type {
+  ILobbySet,
+  ILobbyInputData,
 };
-export type ILobbyList = Instance<typeof LobbyList>;
+export {
+  LobbyList
+};
+
+
+const lobbyList = new LobbyList({});
+
 export default lobbyList;
